@@ -21,7 +21,7 @@ zairachem predict -i <test_data.csv> -m <model_folder> -o <pred_folder>
 ## Classification tasks
 We have benchmarked ZairaChem in the [ADMET TDC Leaderboard](https://tdcommons.ai/benchmark/admet_group/overview/). At this stage we have focused only on classification tasks. 
 
-The [admet_classifications] notebook shows the code to reproduce the model training and evaluation. For simplicity, the automated reports and raw data of the 8-fold evaluations are provided in the /predictions folder. An example model for each dataset is also available in the /models folder.
+The [admet_classifications](https://github.com/ersilia-os/zaira-chem-tdc-benchmark/blob/main/notebooks/admet_classifications.ipynb) notebook shows the code to reproduce the model training and evaluation. For simplicity, the automated reports and raw data of the 8-fold evaluations are provided in the /predictions folder. An example model for each dataset is also available in the /models folder.
 
 ### Results
 | Dataset    | Score |
@@ -44,7 +44,6 @@ The [admet_classifications] notebook shows the code to reproduce the model train
 If you use our work, please cite us:
 
 [ZairaChem Software](https://github.com/ersilia-os/zaira-chem/blob/main/CITATION.cff)
-[Publication]
 
 # About us
 The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
