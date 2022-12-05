@@ -24,21 +24,21 @@ We have benchmarked ZairaChem in the [ADMET TDC Leaderboard](https://tdcommons.a
 The [admet_classifications](https://github.com/ersilia-os/zaira-chem-tdc-benchmark/blob/main/notebooks/admet_classifications.ipynb) notebook shows the code to reproduce the model training and evaluation. For simplicity, the automated reports and raw data of the 8-fold evaluations are provided in the /predictions folder. An example model for each dataset is also available in the /models folder.
 
 ### Results
-| Dataset    | Score |
+| Dataset    | Metric |  Score | 
 | ----------- | ----------- |
-| Bioavailability_Ma   |         |
-| HIA_Hou  |          |
-| BBB_Martins   |          |
-| CYP2C9_Veith   |          |
-| CYP2D6_Veith  |          |
-| CYP3A4_Veith   |          |
-| CYP2C9_Substrate_CarbonMangels   |          |
-| CYP2D6_Substrate_CarbonMangels   |          |
-| CYP3A4_Substrate_CarbonMangels   |          |
-| hERG   |          |
-| AMES   |          |
-| DILI   |          |
-
+| Bioavailability_Ma   | AUROC | 0.706 ± 0.031  |
+| HIA_Hou  | AUROC | 0.948 ± 0.018 |
+| Pgp_Broccatelli | AUROC | 0.935 ± 0.006 |
+| BBB_Martins   | AUROC | 0.91 ± 0.024|
+| CYP2C9_Veith   | AUPRC | 0.786 ± 0.004 |
+| CYP2D6_Veith  | AUPRC | 0.644 ± 0.085 |
+| CYP3A4_Veith   | AUPRC | 0.875 ± 0.002 |
+| CYP2C9_Substrate_CarbonMangels   | AUPRC | 0.44º ± 0.033 |
+| CYP2D6_Substrate_CarbonMangels   | AUPRC | 0.685 ± 0.029 |
+| CYP3A4_Substrate_CarbonMangels   | AUPRC | 0.63 ± 0.008 |
+| hERG   | AUROC | 0.856 ± 0.009 |
+| AMES   | AUROC | 0.871 ± 0.002 |
+| DILI   | AUROC | 0.925 ± 0.005 |
 
 # Cite us
 If you use our work, please cite us:
