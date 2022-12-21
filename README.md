@@ -45,6 +45,8 @@ If you use our work, please cite us:
 
 [ZairaChem Software](https://github.com/ersilia-os/zaira-chem/blob/main/CITATION.cff)
 
+[Preprint](https://www.biorxiv.org/content/10.1101/2022.12.13.520154v1)
+
 # About us
 The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
 
