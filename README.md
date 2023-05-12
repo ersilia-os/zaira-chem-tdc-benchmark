@@ -1,5 +1,7 @@
 # zaira-chem-tdc-benchmark
-This repository contains the ZairaChem models built on the ADMET datasets from Therapeutics Data Commons
+This repository contains the validation of ZairaChem v0 using the ADMET datasets from the [Therapeutics Data Commons](https://tdcommons.ai/)
+
+*This repository is using the old version of ZairaChem, if you wish to use it please clone the ZairaChem release v0.0.2. The validation of ZairaChem v1 can be found in https://github.com/ersilia-os/zaira-chem-tdc
 
 ## ZairaChem
 [ZairaChem](https://github.com/ersilia-os/zaira-chem) is an automated pipeline for ML-based (Q)SAR models. Detailed installation instructions can be found in [Ersilia's GitBook](https://ersilia.gitbook.io/ersilia-book/chemistry-tools/automated-activity-prediction-models/accurate-automl-with-zairachem)
